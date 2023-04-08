@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    scroll-behavior: smooth;
+}
+.in{
+    @apply bg-[#F2F5FB]  outline-none sm:w-[100vw]  h-[100%] w-[100%]
+     focus:shadow-inner focus:border-b focus:border-[#30036e] placeholder:uppercase placeholder:font-bold placeholder:text-[12px]
+}
+.divin{
+
+    @apply  flex items-center border border-b bg-[#F2F5FB] h-[50px] gap-[10px]
+
+}
